@@ -1,0 +1,30 @@
+@relation Sekolah 
+
+@attribute Jurusan_SMA {IPA, IPS, LAIN}
+@attribute Gender {wanita, pria}
+@attribute Asal_Sekolah {Surakarta, Luar}
+@attribute Rerata_sks real
+@attribute Asisten {Ya, Tidak}
+@attribute Lama_studi {Terlambat, Tepat}
+
+@data
+IPS, wanita, Surakarta, 18, Tidak, Terlambat
+IPA, pria, Surakarta, 19, Ya, Tepat
+LAIN, pria, Surakarta, 19, Tidak, Terlambat
+IPA, pria, Luar, 17, Tidak, Terlambat
+IPA, wanita, Surakarta, 17, Tidak, Tepat
+IPA, wanita, Luar, 18, Ya, Tepat
+IPA, pria, Surakarta, 18, Tidak, Terlambat
+IPA, pria, Surakarta, 19, Tidak, Tepat
+IPS, pria, Luar, 18, Tidak, Terlambat
+LAIN, wanita, Surakarta, 18, Tidak, Tepat
+IPA, wanita, Surakarta, 19, Tidak, Tepat
+IPS, pria, Surakarta, 20, Tidak, Tepat
+IPS, pria, Surakarta, 19, Tidak Tepat
+IPA, pria, Surakarta, 19, Tidak, Tepat
+IPA, pria, Luar, 22, Ya, Tepat
+LAIN, pria, Surakarta, 16, Tidak, Terlambat
+IPS, pria, Luar, 20, Tidak, Tepat
+LAIN, pria, Luar, 23, Ya, Tepat
+IPA, pria, Surakarta, 21, Ya, Tepat
+IPS, pria, Surakarta, 19, Tidak, Terlambat
